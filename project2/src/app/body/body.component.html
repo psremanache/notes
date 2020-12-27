@@ -1,0 +1,10 @@
+<div class="container">
+      <button mat-fab [color]="addColor" (click)="loadAdd()" style="margin-right: 16px;">
+        <mat-icon>add_box</mat-icon>
+      </button>
+      <button mat-fab [color]="showNoteColor" class="active" (click)="loadShowNote()" style="margin-right: 16px;">
+        <mat-icon>description</mat-icon>
+      </button>
+      <mat-divider></mat-divider>
+      <router-outlet></router-outlet>
+</div>
